@@ -187,3 +187,162 @@ section {
   font-weight: bold;
   cursor: pointer;
 }
+
+.videos {
+  padding: 80px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.videos .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.videos .highlight {
+  color: #C271FF;
+}
+
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.video-card {
+  background-color: #fff;
+  width: 260px;
+  text-align: left;
+}
+
+.video-thumb {
+  position: relative;
+  width: 100%;
+}
+
+.video-thumb img:first-child {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+}
+
+.video-card h3 {
+  margin: 15px 0 5px;
+  font-size: 1.1rem;
+}
+
+.video-card p {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.author span {
+  font-size: 0.9rem;
+  color: #000;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stars i {
+  color: #C271FF;
+  margin-right: 2px;
+}
+
+.duration {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* Membership Section */
+.membership {
+  background-color: #071629;
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.membership .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.membership .section-title .highlight {
+  color: #C271FF;
+}
+
+.membership .section-title .black {
+  color: #fff;
+}
+
+.membership-benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.benefit {
+  max-width: 220px;
+  text-align: center;
+}
+
+.benefit img {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+
+.benefit h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.benefit p {
+  font-size: 0.9rem;
+  color: #ffffffcc;
+}
+
+/* Register Button */
+.btn-primary {
+  background-color: #C271FF;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #a74fd6;
+}
+
+
