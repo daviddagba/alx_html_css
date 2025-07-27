@@ -37,3 +37,86 @@ header, footer {
   font-weight: bold;
   border: 1px solid #ddd;
 }
+
+body {
+  background-color: #fefefe;
+  color: #333;
+}
+
+header {
+  background-color: #24292e;
+  color: white;
+}
+
+footer {
+  background-color: #24292e;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+main {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+article {
+  background-color: #f0f8ff;
+  border-right: 1px solid #ccc;
+}
+
+aside {
+  background-color: #fffaf0;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff9800;
+  margin-right: 1rem;
+}
+
+article {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  overflow-y: auto;
+  line-height: 1.6;
+}
+
+article h1, article h2, article h3 {
+  color: #2c3e50;
+}
+
+article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+article th, article td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+article ul {
+  padding-left: 1.5rem;
+}
+
+article blockquote {
+  font-style: italic;
+  color: #555;
+  border-left: 4px solid #ccc;
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
