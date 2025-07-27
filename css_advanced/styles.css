@@ -119,3 +119,71 @@ nav a:hover {
   font-size: 14px;
   color: #b8b8b8;
 }
+
+/* Central Section Layout */
+section {
+  padding: 80px 40px;
+}
+
+/* Quote Section */
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c271ff;
+  color: #fff;
+  gap: 60px;
+  padding: 100px 80px;
+}
+
+.quote-img img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.quote-content {
+  max-width: 600px;
+}
+
+.quote-content blockquote {
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.quote-content h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.quote-content p {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.btn-primary {
+  background-color: #c271ff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
