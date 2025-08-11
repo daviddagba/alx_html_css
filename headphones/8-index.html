@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Headphones</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="7-styles.css">
+  <link rel="stylesheet" href="font/holberton_school-icon/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay">
+      <nav class="navbar">
+        <!-- Hamburger Icon (Mobile Only) -->
+        <div class="hamburger" id="hamburger">&#9776;</div>
+
+        <!-- Centered Logo -->
+        <div class="logo">
+          <img src="images/logo_headphones.png" alt="Headphones Logo">
+        </div>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#">what we do</a></li>
+          <li><a href="#">our results</a></li>
+          <li><a href="#">contact us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hero Content -->
+      <div class="hero-content">
+        <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+        <h2>Lorem ipsum dolor set amet lorem ipsum dolor set</h2>
+        <button class="cta">CALL TO ACTION</button>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    // Toggle mobile menu
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+  <!-- What we do Section -->
+  <section class="what-we-do">
+  <div class="container">
+    <h2>What we do…</h2>
+    <p class="section-description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+
+    <div class="services">
+      <div class="service">
+        <i class="holberton_school-icon holberton_school-icon-ic_sound"></i>
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
+      </div>
+      <div class="service">
+        <i class="holberton_school-icon holberton_school-icon-ic_video"></i>
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
+      </div>
+      <div class="service">
+        <i class="holberton_school-icon holberton_school-icon-ic_music"></i>
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
+      </div>
+      <div class="service">
+        <i class="holberton_school-icon holberton_school-icon-ic_hearing"></i>
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Our Results Section -->
+<section class="results-section">
+  <div class="results-content">
+    <h2>Our results speak for themselves</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing sed do eiusmod tempor incididunt ut labore sed do eiusmod tempor incididunt ut labore et dolore magna et dolore magna elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <div class="pentagon-container">
+      <div class="pentagon">
+        <div class="percent">+2%</div>
+        <div class="label">Lorem ipsum dolor</div>
+      </div>
+      <div class="pentagon">
+        <div class="percent">+2%</div>
+        <div class="label">Lorem ipsum dolor</div>
+      </div>
+      <div class="pentagon">
+        <div class="percent">+2%</div>
+        <div class="label">Lorem ipsum dolor</div>
+      </div>
+      <div class="pentagon">
+        <div class="percent">+2%</div>
+        <div class="label">Lorem ipsum dolor</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Us Section -->
+<section class="contact-section" id="contact">
+    <div class="contact-container">
+      <h2 class="contact-title">Contact Us</h2>
+      <p class="contact-subtitle">We’d love to hear from you!</p>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button class="cta-btn" type="submit">Call to Action</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <img src="images/logo_headphones.png" alt="Headphones logo" class="footer-logo">
+    </div>
+     <div class="footer-social">
+  <a href="#"><i class="holberton_school-icon-ic_facebook"></i></a>
+  <a href="#"><i class="holberton_school-icon-ic_twitter"></i></a>
+  <a href="#"><i class="holberton_school-icon-ic_instagram"></i></a>
+</div>
+  </div>
+  <div class="footer-bottom">
+    <p>©headphones 2020</p>
+  </div>
+</footer>
+
+</body>
+</html>
